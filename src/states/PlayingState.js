@@ -118,7 +118,6 @@ export class PlayingState {
 
   _onCollision(ctx) {
     ctx.audio.playSfx('hit', { freq: 120, type: 'sawtooth' });
-    ctx.camera.shake({ duration: 0.2, magnitude: 8 });
     // Finalize result exactly once, then transition.
     ctx.stateManager.change('GAME_OVER', { result: this._finalizeResult(ctx) });
   }
