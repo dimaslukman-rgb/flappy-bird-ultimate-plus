@@ -1,0 +1,11 @@
+{
+  "appId": "com.flappyultimate.plus",
+  "appName": "Flappy Ultimate+",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "always"
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --bg: #0a0a14;
+  --surface: #14142a;
+  --surface-raised: #1e1e3a;
+  --border: #2a2a4a;
+
+  --text: #e8e8ff;
+  --text-dim: #9a9ac0;
+  --accent: #00e5ff;
+  --accent-2: #ff2ea6;
+  --accent-3: #7c4dff;
+
+  --good: #39ff88;
+  --warn: #ffcf3d;
+  --bad: #ff4d6d;
+
+  --font-xl: 2.25rem;
+  --font-lg: 1.5rem;
+  --font-md: 1rem;
+  --font-sm: 0.85rem;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+}

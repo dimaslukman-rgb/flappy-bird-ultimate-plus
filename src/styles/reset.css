@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
+
+button {
+  font-family: inherit;
+}

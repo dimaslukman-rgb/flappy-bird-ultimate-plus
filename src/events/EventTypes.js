@@ -1,0 +1,21 @@
+// Canonical event names. Single source of truth to keep event names consistent.
+export const EventTypes = Object.freeze({
+  APP_READY: 'app:ready',
+  ASSETS_PROGRESS: 'assets:progress',
+  ASSETS_READY: 'assets:ready',
+  RENDERER_RESIZED: 'renderer:resized',
+  STATE_CHANGING: 'state:changing',
+  STATE_CHANGED: 'state:changed',
+  RUN_STARTED: 'run:started',
+  BIRD_FLAPPED: 'bird:flapped',
+  PIPE_SPAWNED: 'pipe:spawned',
+  SCORE_CHANGED: 'score:changed',
+  COLLISION_DETECTED: 'collision:detected',
+  RUN_ENDED: 'run:ended',
+  SAVE_LOADED: 'save:loaded',
+  SAVE_COMMITTED: 'save:committed',
+  SETTINGS_CHANGED: 'settings:changed',
+  AUDIO_UNLOCKED: 'audio:unlocked',
+  ENGINE_SPIRAL_PREVENTED: 'engine:spiralPrevented',
+  ERROR_REPORTED: 'error:reported',
+});

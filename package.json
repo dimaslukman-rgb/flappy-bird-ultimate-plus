@@ -1,0 +1,30 @@
+{
+  "name": "flappy-bird-ultimate-plus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Flappy Bird Ultimate+ — production-ready HTML5 Canvas game",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "eslint": "^9.5.0",
+    "prettier": "^3.3.2",
+    "typescript": "^7.0.2",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  }
+}
