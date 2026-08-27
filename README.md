@@ -1,181 +1,203 @@
+<!-- BANNER -->
 <div align="center">
 
-# 🐦 Flappy Bird Ultimate+
+```
+███████╗██╗      █████╗ ██████╗ ██████╗ ██╗   ██╗
+██╔════╝██║     ██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
+█████╗  ██║     ███████║██████╔╝██████╔╝ ╚████╔╝
+██╔══╝  ██║     ██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝
+██║     ███████╗██║  ██║██║     ██║        ██║
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝
 
-**HTML5 Canvas · Vanilla ES Modules · Vite · Capacitor · Firebase**
+██████╗ ██╗██████╗ ██████╗     ██╗   ██╗██╗  ████████╗██╗███╗   ███╗ █████╗ ████████╗███████╗    ██╗
+██╔══██╗██║██╔══██╗██╔══██╗    ██║   ██║██║  ╚══██╔══╝██║████╗ ████║██╔══██╗╚══██╔══╝██╔════╝    ██║
+██████╔╝██║██████╔╝██║  ██║    ██║   ██║██║     ██║   ██║██╔████╔██║███████║   ██║   █████╗      ██║
+██╔══██╗██║██╔══██╗██║  ██║    ██║   ██║██║     ██║   ██║██║╚██╔╝██║██╔══██║   ██║   ██╔══╝      ╚═╝
+██████╔╝██║██║  ██║██████╔╝    ╚██████╔╝███████╗██║   ██║██║ ╚═╝ ██║██║  ██║   ██║   ███████╗    ██╗
+╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝      ╚═════╝ ╚══════╝╚═╝   ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝    ╚═╝
+```
 
-[![Build Android APK](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml/badge.svg)](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml)
+### 🐦 *Tap. Fly. Survive.* 🐦
+
+<br/>
+
+[![🎮 Play Now](https://img.shields.io/badge/🎮%20PLAY%20NOW-Live%20Demo-ff6b35?style=for-the-badge&logoColor=white)](https://dimaslukman-rgb.github.io/flappy-bird-ultimate-plus/)
+[![📥 Download APK](https://img.shields.io/badge/📥%20DOWNLOAD-APK%20Android-3ddc84?style=for-the-badge&logoColor=white)](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml)
+
+<br/>
+
+[![Build APK](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml/badge.svg)](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml)
 [![Deploy Pages](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/deploy-pages.yml)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20iOS-green)
-![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
+![HTML5 Canvas](https://img.shields.io/badge/HTML5-Canvas-E34F26?logo=html5&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-6-119EFF?logo=capacitor&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-10-FFCA28?logo=firebase&logoColor=black)
+![License MIT](https://img.shields.io/badge/License-MIT-blue)
 
-> Flappy Bird clone production-ready — berjalan di browser, bisa di-install sebagai PWA, dan bisa di-export jadi APK Android via Capacitor. Zero dependency runtime di luar Firebase (opsional).
+<br/>
 
-### 🌐 [▶ Main Sekarang — Live Demo](https://dimaslukman-rgb.github.io/flappy-bird-ultimate-plus/)
+```
+     ___
+    /   \        🌿🌿🌿        🌿🌿🌿
+   ( o o )   ──────────────────────────── →
+    \___/        🌿🌿🌿        🌿🌿🌿
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-> Tap / klik / spasi untuk terbang. Works di browser mobile & desktop.
+> **Flappy Bird clone production-ready** — HTML5 Canvas murni, 60 FPS fixed-step,
+> 5 skin burung, PWA installable, dan bisa di-export jadi APK Android.
+> **Zero backend** — berjalan 100% offline. Firebase opsional untuk fitur online.
 
 </div>
 
 ---
 
-## ✨ Fitur
+## 🕹️ Cara Main
 
-| Fitur | Status |
-|---|---|
-| 🎮 Game loop fixed-step 60 FPS | ✅ |
-| 🖼️ HTML5 Canvas Renderer | ✅ |
-| 🐦 5 skin burung (Common → Legendary) | ✅ |
-| 🏪 Shop + sistem unlock skin | ✅ |
-| 🏆 Leaderboard lokal (best score, games played) | ✅ |
-| ⚙️ Settings (audio, reduced motion) | ✅ |
-| 💾 Auto-save + migrasi save antar versi | ✅ |
-| 💥 Particle system (low / medium / high) | ✅ |
-| 📱 PWA (installable, offline support) | ✅ |
-| 🤖 Build APK Android via GitHub Actions | ✅ |
-| 🔥 Firebase (Auth anonymous + Firestore) | ⚙️ Opsional |
-| 🌐 Global leaderboard | 🔜 Part 2 |
-| ☁️ Cloud save | 🔜 Part 4 |
-| 🛡️ Anti-cheat server-side | 🔜 Part 7 |
+<div align="center">
+
+| Platform | Kontrol |
+|:---:|:---:|
+| 🖥️ Desktop | `Space` atau `Klik kiri` |
+| 📱 Mobile | `Tap` layar |
+| 🎮 Dimana saja | **[▶ Buka di Browser](https://dimaslukman-rgb.github.io/flappy-bird-ultimate-plus/)** |
+
+</div>
 
 ---
 
-## 🐦 Skin Burung
+## ✨ Fitur Utama
 
-| ID | Nama | Rarity | Warna |
-|---|---|---|---|
-| `classic` | Classic | Common | 🟡 |
-| `retro` | Retro | Common | 🟠 |
-| `neon` | Neon | Rare | 🩵 |
-| `golden` | Golden | Epic | 💛 |
-| `dragon` | Dragon | Legendary | 🟣 |
+```
+🎮  Fixed-step game loop 60 FPS — mulus di semua device
+🖼️  HTML5 Canvas 2D renderer dengan kamera + particle system
+🐦  5 skin burung dari Common sampai Legendary
+🏪  Shop skin dengan sistem unlock & rarity
+🏆  Leaderboard lokal (best score + games played)
+⚙️  Settings: audio toggle, reduced motion accessibility
+💾  Auto-save dengan migrasi antar versi (save lama tetap valid)
+📱  PWA — bisa di-install di HP langsung dari browser
+🤖  Build APK otomatis via GitHub Actions (gratis, tanpa install Android Studio)
+🔥  Firebase ready — opsional, game jalan penuh tanpa credentials
+```
 
 ---
 
-## 🚀 Quickstart
+## 🐦 Koleksi Skin Burung
+
+<div align="center">
+
+| | Skin | Rarity | Warna |
+|:---:|:---:|:---:|:---:|
+| 🟡 | **Classic** | `Common` | #ffcf3d |
+| 🟠 | **Retro** | `Common` | #ff8c42 |
+| 🩵 | **Neon** | `Rare` | #00e5ff |
+| 💛 | **Golden** | `Epic` | #ffd700 |
+| 🟣 | **Dragon** | `Legendary` | #7c4dff |
+
+</div>
+
+---
+
+## 📱 Download APK Android
+
+> **Tanpa install Java, Android Studio, atau SDK apapun.**
+> APK dibangun otomatis di cloud setiap ada perubahan.
+
+**Langkah download:**
+
+```
+1. Klik tab  Actions  di repo ini
+2. Pilih run terbaru  "Build Android APK" ✅
+3. Scroll ke bawah → Artifacts
+4. Download  flappy-ultimate-plus-debug
+5. Extract ZIP → install app-debug.apk di HP
+```
+
+> ⚠️ Aktifkan **"Install dari sumber tidak dikenal"** di pengaturan Android sebelum install.
+
+---
+
+## 🚀 Jalankan Lokal
 
 ```bash
-# Clone
+# Clone repo
 git clone https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus.git
 cd flappy-bird-ultimate-plus
 
-# Install
+# Install dependencies
 npm install
 
-# Jalankan lokal
-npm run dev        # http://localhost:5173
+# Jalankan dev server
+npm run dev
+# → http://localhost:5173
 ```
 
----
-
-## 📦 Scripts
+### Semua Commands
 
 ```bash
-npm run dev        # Dev server (HMR)
-npm run build      # Production build → dist/
-npm run preview    # Preview build
-npm test           # Vitest unit tests
-npm run lint       # ESLint
-npm run format     # Prettier
+npm run dev        # 🔥 Dev server dengan HMR
+npm run build      # 📦 Build production → dist/
+npm run preview    # 👀 Preview hasil build
+npm test           # 🧪 Vitest unit tests
+npm run lint       # 🔍 ESLint check
+npm run format     # ✨ Prettier format
 ```
-
----
-
-## 📱 Build APK Android
-
-### Otomatis (GitHub Actions — Gratis)
-
-Setiap push ke `main` → APK build otomatis.
-
-1. Buka tab **Actions** di repo
-2. Pilih run terbaru **Build Android APK**
-3. Scroll ke bawah → **Artifacts** → download `flappy-ultimate-plus-debug`
-4. Extract zip → install `app-debug.apk` di HP Android
-
-> Aktifkan **"Install from unknown sources"** di pengaturan Android sebelum install.
-
-### Manual (butuh Android Studio + JDK 17)
-
-```bash
-npm run build
-npx cap sync android
-npx cap open android   # Build APK di Android Studio
-```
-
----
-
-## 🍎 Build iOS (macOS only)
-
-```bash
-npx cap add ios
-npx cap sync ios
-npx cap open ios       # Build di Xcode
-```
-
----
-
-## 🔥 Firebase Setup (Opsional)
-
-Game berjalan penuh **offline tanpa Firebase**. Untuk fitur online:
-
-1. Buat project di [console.firebase.google.com](https://console.firebase.google.com)
-2. Enable **Authentication → Anonymous**
-3. Enable **Firestore** (production mode)
-4. Buat file `.env` di root project:
-
-```env
-VITE_FIREBASE_API_KEY=...
-VITE_FIREBASE_AUTH_DOMAIN=...
-VITE_FIREBASE_PROJECT_ID=...
-VITE_FIREBASE_APP_ID=...
-```
-
-5. Restart `npm run dev`
-
-> Tanpa `.env`, game otomatis masuk **offline mode** — semua fitur gameplay tetap jalan normal.
 
 ---
 
 ## 🏗️ Arsitektur
 
 ```
-src/
-├── app/            # Bootstrap, AppContext
-├── core/           # Engine (fixed-step), GameClock, EventBus,
-│                   # StateManager, Renderer, InputManager,
-│                   # Camera, ObjectPool, Random
-├── entities/       # Bird, PipePair, Ground, BackgroundLayer
-├── systems/        # Physics, Collision, Pipe, Score, Particle
-├── states/         # BOOT → MENU → PLAYING → PAUSED
-│                   # → GAME_OVER → SHOP → SETTINGS
-│                   # → LEADERBOARD → ERROR
-├── managers/       # Save, Settings, Skin, Audio
-├── firebase/       # Fail-soft online services
-├── storage/        # LocalStorage adapter, schema, migrasi
-├── config/         # Defaults, schema, ConfigManager
-└── utils/          # Logger, math, invariant, deepFreeze
+flappy-bird-ultimate-plus/
+│
+├── 📁 src/
+│   ├── 🧠 app/           Bootstrap, AppContext
+│   ├── ⚙️  core/          Engine · GameClock · EventBus · StateManager
+│   │                     Renderer · InputManager · Camera · ObjectPool
+│   ├── 🐦 entities/      Bird · PipePair · Ground · BackgroundLayer
+│   ├── 🔧 systems/       Physics · Collision · Pipe · Score · Particle
+│   ├── 📺 states/        9 game states (lihat di bawah)
+│   ├── 🗂️  managers/     Save · Settings · Skin · Audio
+│   ├── 🔥 firebase/      Fail-soft online services
+│   ├── 💾 storage/       LocalStorage adapter · schema · migrasi
+│   ├── ⚡ config/        Defaults · schema · ConfigManager
+│   └── 🛠️  utils/        Logger · math · invariant · deepFreeze
+│
+├── 📁 android/           Capacitor Android native project
+├── 📁 public/            PWA assets (manifest, service worker, icons)
+├── 📁 tests/             Vitest unit tests
+└── 📁 .github/workflows/ CI/CD: APK build + GitHub Pages deploy
 ```
 
-### State Machine
+### 🔄 State Machine
 
 ```
-BOOT ──► MENU ──► PLAYING ──► PAUSED
-                    │              │
-                    ▼              ▼
-               GAME_OVER ◄────────┘
-                    │
-          ┌─────────┼─────────┐
-          ▼         ▼         ▼
-        SHOP   SETTINGS  LEADERBOARD
+                    ┌─────────┐
+              ┌────►│  MENU   │◄────────────────────┐
+              │     └────┬────┘                     │
+              │          │ tap                       │
+              │     ┌────▼────┐      ┌──────────┐   │
+              │     │ PLAYING │─────►│  PAUSED  │   │
+              │     └────┬────┘      └──────────┘   │
+              │          │ die                       │
+              │     ┌────▼─────┐                    │
+              └─────│ GAME_OVER│                    │
+                    └──┬──┬──┬─┘                    │
+                       │  │  │                      │
+               ┌───────┘  │  └────────┐             │
+               ▼          ▼           ▼             │
+            ┌──────┐  ┌────────┐  ┌─────────────┐  │
+            │ SHOP │  │SETTINGS│  │ LEADERBOARD │──┘
+            └──────┘  └────────┘  └─────────────┘
 ```
 
-### Game Loop (Fixed-step 60 FPS)
+### ⚡ Game Loop (Fixed-step 60 FPS)
 
 ```
-frame(dt)
-  └─ clamp dt → maxFrameDelta (0.25s)
-       └─ accumulate → tick per fixedStep (1/60s)
+frame(Δt)
+  └─ clamp Δt ≤ 0.25s  (spiral-of-death prevention)
+       └─ accumulate → tick setiap 1/60s
             └─ Physics → Collision → Pipe → Score → Particle
                  └─ Renderer.flush()
 ```
@@ -184,18 +206,41 @@ frame(dt)
 
 ## ⚙️ Konfigurasi Gameplay
 
-Semua konstanta ada di `src/config/defaults.js`:
+Semua di `src/config/defaults.js` — tinker sesuka hati:
 
-| Parameter | Default | Keterangan |
-|---|---|---|
-| `engine.fixedStep` | `1/60` s | Simulasi per tick |
-| `bird.gravity` | `1550` px/s² | Tarikan gravitasi |
-| `bird.flapImpulse` | `-470` px/s | Kecepatan ke atas saat tap |
-| `bird.maxFallSpeed` | `760` px/s | Kecepatan jatuh maksimal |
-| `pipes.initialGap` | `210` px | Celah awal antar pipa |
-| `pipes.minimumGap` | `150` px | Celah terkecil (makin susah) |
-| `pipes.speed` | `170` px/s | Kecepatan scroll |
-| `pipes.spawnInterval` | `1.45` s | Interval kemunculan pipa |
+```js
+bird: {
+  gravity:     1550,   // px/s²   ← lebih besar = jatuh lebih cepat
+  flapImpulse: -470,   // px/s    ← lebih negatif = lompat lebih tinggi
+  maxFallSpeed: 760,   // px/s    ← kecepatan jatuh maksimal
+},
+pipes: {
+  initialGap:    210,  // px      ← celah awal (lebih kecil = lebih susah)
+  minimumGap:    150,  // px      ← celah minimum
+  speed:         170,  // px/s    ← kecepatan scroll
+  spawnInterval: 1.45, // detik   ← interval muncul pipa
+},
+```
+
+---
+
+## 🔥 Firebase Setup (Opsional)
+
+Game **100% jalan offline** tanpa Firebase. Untuk fitur online:
+
+```bash
+# Buat .env di root project
+VITE_FIREBASE_API_KEY=...
+VITE_FIREBASE_AUTH_DOMAIN=...
+VITE_FIREBASE_PROJECT_ID=...
+VITE_FIREBASE_APP_ID=...
+```
+
+Lalu aktifkan di [Firebase Console](https://console.firebase.google.com):
+- ✅ Authentication → Anonymous
+- ✅ Firestore Database
+
+> Tanpa `.env`, game masuk **offline mode** otomatis — gameplay tidak terpengaruh.
 
 ---
 
@@ -205,55 +250,54 @@ Semua konstanta ada di `src/config/defaults.js`:
 npm test
 ```
 
-Unit tests dengan **Vitest** di `tests/unit/`:
-
-- `CollisionSystem` — deteksi tabrakan
-- `EventBus` — pub/sub events
-- `MenuState` — transisi state
-- `Random` — seeded RNG
-- `SaveManager` — save/load + migrasi
-- `StateManager` — mesin state
-
----
-
-## 🗂️ Extend Proyek
-
-### Tambah State Baru
-1. Buat `src/states/XState.js`
-2. Register di `Bootstrap.js`
-3. Tambah ke transition map di `StateManager.js`
-
-### Tambah Skin
-```js
-// src/managers/SkinManager.js
-export const SKINS = Object.freeze({
-  // ... existing skins
-  myskin: { id: 'myskin', name: 'My Skin', rarity: 'rare', color: '#ff0000' },
-});
-```
-
-### Tambah Save Field
-1. Extend `src/storage/SaveSchema.js`
-2. Tambah migrasi di `src/storage/SaveMigrations.js`
-3. Save lama di-sanitize otomatis saat load
-
----
-
-## 📋 Tech Stack
-
-| Layer | Tech |
+| Test File | Coverage |
 |---|---|
-| Game engine | Vanilla JS (ES Modules) |
+| `CollisionSystem.test.js` | Deteksi tabrakan bird vs pipe & ground |
+| `EventBus.test.js` | Pub/sub emit & subscribe |
+| `MenuState.test.js` | Transisi state dari menu |
+| `Random.test.js` | Seeded RNG determinism |
+| `SaveManager.test.js` | Save/load + migrasi schema |
+| `StateManager.test.js` | State machine transitions |
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Layer | Teknologi |
+|:---:|:---:|
+| Game Engine | Vanilla JS · ES Modules |
 | Renderer | HTML5 Canvas 2D |
-| Bundler | Vite 5 |
-| Testing | Vitest |
-| Mobile wrapper | Capacitor 6 |
-| Backend (opsional) | Firebase 10 |
-| CI/CD | GitHub Actions |
-| Linting | ESLint 9 + Prettier 3 |
+| Bundler | ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white) |
+| Testing | ![Vitest](https://img.shields.io/badge/Vitest-1-6E9F18?logo=vitest&logoColor=white) |
+| Mobile | ![Capacitor](https://img.shields.io/badge/Capacitor-6-119EFF?logo=capacitor&logoColor=white) |
+| Backend | ![Firebase](https://img.shields.io/badge/Firebase-10-FFCA28?logo=firebase&logoColor=black) |
+| CI/CD | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white) |
+| Linting | ESLint 9 · Prettier 3 |
+
+</div>
 
 ---
 
 ## 📄 License
 
-MIT © [dimaslukman-rgb](https://github.com/dimaslukman-rgb)
+```
+MIT License © 2026 dimaslukman-rgb
+```
+
+---
+
+<div align="center">
+
+```
+     ___
+    /   \
+   ( ^ ^ )   "Satu lagi. Pasti bisa."
+    \___/
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+**[🎮 Main Sekarang](https://dimaslukman-rgb.github.io/flappy-bird-ultimate-plus/) · [📥 Download APK](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus/actions/workflows/android-build.yml) · [⭐ Star Repo](https://github.com/dimaslukman-rgb/flappy-bird-ultimate-plus)**
+
+</div>
